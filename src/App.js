@@ -1,7 +1,13 @@
+import AboutMe from "./pages/AboutMe";
+import Start from "./pages/Start";
+
+console.log(window.location);
+
+const page = window.location.pathname === '/' ? <Start/> : <AboutMe/> 
 
 function App() {
   return (
-   <h1>Ola mundo </h1>
+   page
   );
 }
 

@@ -8,4 +8,4 @@ const Start = () => {
   )
 }
 
-export default SobreMim
+export default Start
