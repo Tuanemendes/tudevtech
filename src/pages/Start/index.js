@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../../components/Banner'
 import styles from '../Start/Start.module.css'
 import posts from  '../../json/posts.json'
+import Post from '../../components/Post'
 
 const Start = () => {
   return (
@@ -10,7 +11,7 @@ const Start = () => {
       <ul className={styles.post}>
         {posts.map((post)=> (
           <li key={post.id}>
-            <Post/>
+            <Post post={post}/>
           </li>
         ))}
       </ul>
