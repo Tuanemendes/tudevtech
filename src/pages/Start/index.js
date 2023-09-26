@@ -8,7 +8,7 @@ const Start = () => {
   return (
     <main>
       <Banner/>
-      <ul className={styles.post}>
+      <ul className={styles.posts}>
         {posts.map((post)=> (
           <li key={post.id}>
             <Post post={post}/>
