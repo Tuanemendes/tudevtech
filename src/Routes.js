@@ -12,7 +12,7 @@ function AppRoutes() {
    <Menu/>
     <Routes>
       <Route path="/" element={<PageDefault/>}>
-        <Route path="/" element={<Start/>}/>
+        <Route index element={<Start/>}/>
         <Route path="/aboutme" element={<AboutMe/>}/>
       </Route>
      
