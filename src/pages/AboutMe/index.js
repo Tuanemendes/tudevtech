@@ -29,7 +29,7 @@ const AboutMe = () => {
     Minha trajetória começou aos 15 anos com um curso técnico em eletrotécnica,trabalhei no setor industrial,Formei curso tecnico em transações imobiliaria onde tive a opurtunidade de desenvolver a comunicação  trabalhando com o sistema web na imobiiaria me cahou a atenção onde  formei  em Sistemas de Informações em 2022 para começar a criar paginas web e entender o ecossistema da tecnologia, em 2023 tirei a  certificação AWS para entender melhor o serviços de cloud.
     </p>
     <p className={styles.paragrafo}>
-      Hoje estou como  desenvolvedora Front-end na criação de projetos pessoais. 
+      Hoje estou como  desenvolvedora Front-end na criação de projetos pessoais e ampliando meus conhecimentos. 
     </p>
    </PostModel>
   )
