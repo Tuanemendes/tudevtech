@@ -21,7 +21,7 @@
 .title {
     font-family: var(--fonte-secundaria);
     padding: 0 7.5rem;
-    font-size: 4rem;
+    font-size: 5rem;
     display: flex;
     align-items: center;
 }
@@ -45,10 +45,10 @@
 
     .title {
         padding: 0 1rem;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .postConteudoContainer {
-        padding: 2rem 1rem 1.5rem;
+        padding: 3rem 1rem 1.5rem;
     }
 }
