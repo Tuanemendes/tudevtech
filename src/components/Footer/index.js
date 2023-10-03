@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={styles.rodape}>
       <MarcaRegistrada/>
-      Desenvolvido por Tuane Mendes
+      Desenvolvido por Tuane Mendes Belmiro 2023
     </footer>
   )
 }
